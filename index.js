@@ -1,3 +1,5 @@
 const{upper,lower} = require ('./Task4')
 console.log(upper('hello'))
 console.log(lower('HELLO'))
+const {includes} = require('./Task3')
+console.log(['hELlo','HELLO'].includes('HELLO'))
